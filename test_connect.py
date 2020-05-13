@@ -17,7 +17,7 @@ class Connect():
         s = qi.Session("tcp://127.0.0.1:9559")
         """
         s = qi.Session()
-        #print (s)
+        print (s)
         addrs = "tcp://127.0.0.1:9559"
         s.connect(addrs)
         #foo = s.service("Foo")
